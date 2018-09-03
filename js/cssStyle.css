@@ -1,0 +1,152 @@
+body {
+    background-color: bisque;
+}
+
+
+.tile {
+
+    background-color: black;
+    flex-grow: 1;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    padding: 15px 32px;
+    display: inline;
+    flex-direction: row;
+    pointer-events: none;
+}
+.clickableTile {
+    pointer-events: all;
+}
+
+.tile:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.correct {
+
+    flex-grow: 1;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    padding: 15px 32px;
+    display: inline;
+    flex-direction: row;
+    background-color: green;
+
+}
+
+.wrong {
+
+    flex-grow: 1;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    padding: 15px 32px;
+    display: inline;
+    flex-direction: row;
+    background-color: red;
+
+}
+
+.toGuess {
+    flex-grow: 1;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    padding: 15px 32px;
+    display: inline;
+    flex-direction: row;
+    background-color: blue;
+    }
+
+.returnToBlack {
+    flex-grow: 1;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    padding: 15px 32px;
+    display: inline;
+    flex-direction: row;
+    background-color: black;
+}
+
+.disabled {
+
+    pointer-events: none;
+
+}
+
+.container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+
+
+}
+.button {
+    background-color: darksalmon;
+    font-size: 10px;
+    width: 200px;
+    margin: 10px 30px 10px 30px;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    box-shadow: 0 9px #999;
+}
+.button:hover {
+    background-color: crimson;
+    color: white;
+}
+.button:active {
+    background-color: crimson;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+H1 {
+    font-size: 50px;
+    color: crimson;
+    margin: 30px 30px 30px 30px;
+    font-family: Georgia, serif;
+    align-self: center;
+    align-content: center;
+    animation-name: example;
+    animation-duration: 4s;
+
+}
+@keyframes example {
+    from {color: bisque;}
+    to {color: crimson;}
+
+}

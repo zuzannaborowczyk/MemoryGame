@@ -1,0 +1,19 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="CssUnknownProperty" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myCustomPropertiesEnabled" value="true" />
+      <option name="myIgnoreVendorSpecificProperties" value="false" />
+      <option name="myCustomPropertiesList">
+        <value>
+          <list size="4">
+            <item index="0" class="java.lang.String" itemvalue="margin-top-width" />
+            <item index="1" class="java.lang.String" itemvalue="margin-right-width" />
+            <item index="2" class="java.lang.String" itemvalue="margin-left-width" />
+            <item index="3" class="java.lang.String" itemvalue="font-style-color" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
